@@ -1,0 +1,7 @@
+RewriteEngine On
+ErrorDocument 404 /kurumsalsite/site/error.php
+ReWriteRule ^index index.php [L,NC]
+ReWriteRule ^about about.php [L,NC]
+ReWriteRule ^contact contact.php [L,NC]
+ReWriteRule ^portfolyo portfolyo.php [L,NC]
+ReWriteRule ^service service.php [L,NC]
